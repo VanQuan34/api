@@ -1,9 +1,35 @@
 {
-	"Sdk":{
-		"icon": "https://picsum.photos/seed/41042/1920/270",
-		"text": {
-			"title" : "adfsdafdasdfdfsdfs",
-			"font-size" : "14px"
-		},
-	}
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
 }
