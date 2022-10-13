@@ -1,5 +1,33 @@
 {
-  "Post": {
-    "title": { "string": {} }
-  }
+	"Post": {
+		"icon": {
+			"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+		},
+		"text":{
+			"title": {
+				"loremWords": {
+					"minLength": 50,
+					"maxLength": 90
+				}
+			},
+			"color": {
+				"string": [
+					"#333",
+				]
+			},
+		},
+		"body": {
+			"loremParagraphs": {
+				"minLength": 10,
+				"maxLength": 100
+			}
+		},
+		"tag": {
+			"string": [
+				"one",
+				"two",
+				"three"
+			]
+		},
+	}
 }
