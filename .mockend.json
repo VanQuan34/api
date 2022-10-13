@@ -10,11 +10,13 @@
 					"maxLength": 90
 				}
 			},
-			"color": {
-				"string": [
-					"#333",
-				]
-			},
+			 "tag": {
+      "color": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
 		},
 		"body": {
 			"loremParagraphs": {
