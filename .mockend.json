@@ -1,8 +1,25 @@
 {
   "Post": {
-    "cover": {
+    "type": {
+        "string": [
+          "default",
+          "category",
+          "email"
+        ]
+      },
+    "icon": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    "icon" : {"string" :{'hoa anh dao'}}
+    "text": {
+      "title" :{
+        "loremWords": {
+            "minLength": 50,
+            "maxLength": 90
+          }
+      },
+      "demo": {
+        "text": "asdasdasdadas"
+      }
     }
+}
 }
