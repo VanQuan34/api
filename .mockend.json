@@ -9,18 +9,6 @@
         },
       "icon": {
         "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-      },
-      "text": {
-        "title" :{
-          "loremWords": {
-              "minLength": 50,
-              "maxLength": 90
-            }
-        },
-        "icon": {
-        "regexp": "hoa nah dao"
       }
-      }
-  }
-  }
-  
+    }
+}
