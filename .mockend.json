@@ -7,32 +7,9 @@
         "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
       },
       "text": {
-          "title": {
             "regexp": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"
           },
-          "acceptButton": {
-            "regexp": "ALLOW"
-          },
-
-          "cancelButton": {
-            "regexp": "NO THANKS"
-          },
-          "color": {
-            "regexp": "#333"
-          },
-          "font_size": {
-            "regexp": "15px"
-          },
-          "links": {
-            "regexp": "https://google.com"
-          },
-          "phoneLabel": {
-            "regexp": "Your's Phone Number"
-          },
-          "emailLabel": {
-            "regexp": "Your's Email"
-          }
-      },
+          
       "category": {
         "string": [
           "default",
