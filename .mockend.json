@@ -1,23 +1,26 @@
 {
-  "Post": {
-    "type": {
-        "string": [
-          "default",
-          "category",
-          "email"
-        ]
+    "Post": {
+      "type": {
+          "string": [
+            "default",
+            "category",
+            "email"
+          ]
+        },
+      "icon": {
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
       },
-    "icon": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "text": {
-      "title" :{
-        "loremWords": {
-            "minLength": 50,
-            "maxLength": 90
-          }
-      },
-      "demo": '{{'dasdasdasd'}}'
-    }
-}
-}
+      "text": {
+        "title" :{
+          "loremWords": {
+              "minLength": 50,
+              "maxLength": 90
+            }
+        },
+        "icon": {
+        "regexp": "hoa nah dao"
+      }
+      }
+  }
+  }
+  
